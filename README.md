@@ -104,5 +104,5 @@ output/                      your work lands here (gitignored)
 
 ## Go deeper
 
-- Slides, agenda and the full stack: **medialift.gtmadviser.com**
+- Slides, agenda and the full stack: **media-lift.gtmadviser.com**
 - Want this built and run *for* you? That is what [GTM Adviser](https://gtmadviser.com) does. Book a call: https://cal.com/emanuel-morhard/30min

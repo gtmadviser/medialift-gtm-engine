@@ -16,4 +16,4 @@ A talk track for showing, live, how an agent supports a founder from strategy to
 ## Then: hands-on (20 min)
 Every team runs one skill on their own case, Claude Code / Codex or `chatgpt/prompts.md`. Goal: one real artifact per team.
 
-Slides and agenda: `medialift.gtmadviser.com` and `/slides`.
+Slides and agenda: `media-lift.gtmadviser.com` and `/slides`.
