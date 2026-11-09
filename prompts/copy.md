@@ -1,18 +1,18 @@
-# Email copy — step 1 + step 2
+# Email copy: step 1 + step 2
 
 Write a 2-step sequence. Personalize from each lead's `trigger_signal`. Follow every rule.
 
 ## Rules (from real campaign data)
 - **50–70 words**, max 3 short paragraphs.
-- **Scenario opener** — start with their situation/pain, not your product or a stat.
+- **Scenario opener**: start with their situation/pain, not your product or a stat.
 - **No em-dashes (—).** Commas/periods only.
 - **No unsupported stats** ("21x", "save 64%"). Worst performers, every time.
-- **One soft CTA — default to a pilot / design-partner ask**, not a sale ("open to being one of our first design partners?"). Never a hard pitch.
+- **One soft CTA: default to a pilot / design-partner ask**, not a sale ("open to being one of our first design partners?"). Never a hard pitch.
 - **Match tone to segment** (formal vs. informal) and be consistent.
 - End the body with `{{signature}}` (no hardcoded greeting block).
-- First line personalized from the trigger — specific enough it couldn't be sent to anyone else.
+- First line personalized from the trigger: specific enough it couldn't be sent to anyone else.
 
-## Step 1 — cold (structure)
+## Step 1: cold (structure)
 1. **Opener:** their scenario/trigger, in their words. (1 sentence)
 2. **Bridge:** the cost of that problem + a hint you solve it. (1–2 sentences)
 3. **CTA:** soft ask. (1 sentence)
@@ -20,13 +20,13 @@ Write a 2-step sequence. Personalize from each lead's `trigger_signal`. Follow e
 
 Write 2 subject lines to A/B test. Keep subjects ≤ 5 words, lowercase-ish, curiosity over hype.
 
-### First-line strategies (pick one per lead — this is where beginners get stuck)
+### First-line strategies (pick one per lead: this is where beginners get stuck)
 - **Problem-sniffing** (best when you have a trigger): "I looked you up and noticed [specific trigger]…" then the implied problem.
-- **Whole-offer** (best when you have NO trigger data — common for early teams): put the value prop straight in the subject + first line. "We help [ICP] do [outcome] without [pain]."
+- **Whole-offer** (best when you have NO trigger data: common for early teams): put the value prop straight in the subject + first line. "We help [ICP] do [outcome] without [pain]."
 - **AI-generic-with-a-detail**: use one real variable from their website/LinkedIn so it reads researched, not blasted.
 Tell the team which strategy you used and why, so they can repeat it.
 
-## Step 2 — follow-up (send +3 days)
+## Step 2: follow-up (send +3 days)
 - Shorter than step 1. Reference the first email lightly, add one new angle or proof point. Do **not** just repeat features (follow-ups that repeat features get ~0 opportunities). One line + CTA is plenty.
 
 ## Pre-flight check (run before writing the file)

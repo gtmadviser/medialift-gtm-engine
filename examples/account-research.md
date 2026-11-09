@@ -1,4 +1,4 @@
-# Example output — an account briefing
+# Example output: an account briefing
 
 A fictional briefing to show the **shape**, not a script. Here the operator sells
 **CarbonLedger**, a carbon-accounting + CSRD-reporting tool for mid-size
@@ -10,7 +10,7 @@ invented.
 ## output/account-nordwind-werke.md
 
 ```markdown
-# Nordwind-Werke GmbH — account briefing
+# Nordwind-Werke GmbH: account briefing
 Fit score: 4/5 · Priority: high · Researched: 2026-06-29
 
 ## What they do
@@ -20,10 +20,10 @@ Family-owned, no PE. Exports >50% of revenue.
 
 ## Why now (signals)
 - Posted two roles in May: "Nachhaltigkeitsmanager (m/w/d)" and "Controller ESG"
-  — careers page, dated 2026-05.
+ : careers page, dated 2026-05.
 - LinkedIn post from the CFO about "preparing for our first CSRD report cycle"
-  — 2026-06-04.
-- Just above the CSRD employee/turnover threshold for FY2025 reporting — public
+ : 2026-06-04.
+- Just above the CSRD employee/turnover threshold for FY2025 reporting: public
   Handelsregister figures.
 
 ## Where we fit
@@ -33,10 +33,10 @@ supplier-data collection + audit-ready CSRD export is the one use case that matt
 to this account right now.
 
 ## Who to reach
-- A. Brand, CFO — linkedin.com/in/… — open here: she owns the CSRD mandate and
+- A. Brand, CFO: linkedin.com/in/…: open here: she owns the CSRD mandate and
   posted about it publicly, warmest entry point.
-- New Nachhaltigkeitsmanager (once hired) — will be the day-to-day champion.
-- T. Reuter, Head of Procurement — relevant for the Scope 3 / supplier-data angle.
+- New Nachhaltigkeitsmanager (once hired): will be the day-to-day champion.
+- T. Reuter, Head of Procurement: relevant for the Scope 3 / supplier-data angle.
 
 ## Fit + disqualifiers
 Strong: right size, clear regulatory trigger, an exec already talking about it.

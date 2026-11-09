@@ -4,11 +4,11 @@ Goal: go from a vague market to a **sharp** ideal customer profile with a trigge
 
 > **Fast way to sharpen:** list 3 best-fit and 3 worst-fit would-be customers. The gap between them *is* your ICP. No customers yet? Look at a competitor's most-loved customers instead.
 
-## The framework — answer these
+## The framework: answer these
 
-1. **Who, specifically?** Industry/vertical + company size + role of the person who feels the pain and can say yes. Not "SMBs" — "owner of a 5–20 person dental practice in DACH."
+1. **Who, specifically?** Industry/vertical + company size + role of the person who feels the pain and can say yes. Not "SMBs": "owner of a 5–20 person dental practice in DACH."
 2. **What pain, in their words?** The problem as *they* would describe it, not your feature.
-3. **The trigger — why now?** A signal that this account needs you *this week*. Pick one from this catalog (or find your own):
+3. **The trigger: why now?** A signal that this account needs you *this week*. Pick one from this catalog (or find your own):
 
    | Trigger | How to detect it | Message angle |
    |---|---|---|

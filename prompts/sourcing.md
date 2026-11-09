@@ -1,4 +1,4 @@
-# Live lead sourcing — build a real TAM list
+# Live lead sourcing: build a real TAM list
 
 We source **live**, real people for *this* team's market. Small and real (25–50) beats big and fake.
 
@@ -6,7 +6,7 @@ We source **live**, real people for *this* team's market. Small and real (25–5
 
 `scripts/source_leads.py` pulls real decision-makers (with LinkedIn URLs) that match the ICP, using the Blitz API (your own `BLITZAPI_API_KEY` in `.env`, free at https://app.blitz-api.ai). Full API contract + gotchas: `prompts/blitzapi.md`. No pip installs.
 
-**Step 1 — write the machine-readable ICP.** From the team's ICP, write `output/icp.json` (shape in `data/icp.example.json`):
+**Step 1: write the machine-readable ICP.** From the team's ICP, write `output/icp.json` (shape in `data/icp.example.json`):
 ```json
 {
   "label": "what you're targeting",
@@ -21,7 +21,7 @@ We source **live**, real people for *this* team's market. Small and real (25–5
 }
 ```
 
-**Step 2 — pull the list.**
+**Step 2: pull the list.**
 ```bash
 python3 scripts/source_leads.py --limit 30          # LinkedIn URLs (fast, cheap)
 python3 scripts/source_leads.py --limit 30 --emails # also verified work emails
@@ -44,7 +44,7 @@ Loosen one thing at a time: confirm the industry name is exact, widen `employee_
 1. **Public directories & marketplaces** (association lists, "best X in [city]", review sites, app marketplaces). Designed to be read, rarely block.
 2. **Maps / local search** for local SMB ICPs: business name + website.
 3. **Company sites** for a role-based contact (info@, owner on the About page).
-4. **`scripts/scrape_example.py`** — a polite scraper skeleton Claude can adapt.
+4. **`scripts/scrape_example.py`**: a polite scraper skeleton Claude can adapt.
 Be polite: modest rates, honor robots, prefer official/public pages. Hand-built 25 is fine.
 
 ## The schema (`output/leads.csv`)

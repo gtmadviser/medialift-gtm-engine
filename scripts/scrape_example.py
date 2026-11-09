@@ -1,5 +1,5 @@
 """
-scrape_example.py — a polite, adaptable starting point for live lead sourcing.
+scrape_example.py: a polite, adaptable starting point for live lead sourcing.
 
 This is a SKELETON. Ask Claude Code to adapt it to your actual source
 (a directory page, a category listing, etc.). It deliberately:
@@ -35,7 +35,7 @@ def fetch(url: str) -> str:
     """Fetch one page, politely."""
     resp = requests.get(url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
-    time.sleep(1.5)  # be polite — don't hammer the source
+    time.sleep(1.5)  # be polite: don't hammer the source
     return resp.text
 
 
@@ -60,7 +60,7 @@ def extract(html: str, source_url: str) -> list[dict]:
             "location": "",
             "trigger_signal": "",   # fill in why this lead fits
             "source": source_url,
-            "notes": "raw extract — clean with Claude",
+            "notes": "raw extract: clean with Claude",
         })
     return rows
 

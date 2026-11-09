@@ -1,4 +1,4 @@
-# Using the lemlist API — "set up my multichannel campaign"
+# Using the lemlist API: "set up my multichannel campaign"
 
 Official docs: https://developer.lemlist.com/api-reference/getting-started/overview · index: https://developer.lemlist.com/llms.txt
 
@@ -7,7 +7,7 @@ Official docs: https://developer.lemlist.com/api-reference/getting-started/overv
   - curl: `--user ":$LEMLIST_API_KEY"`
   - code: header `Authorization: Basic base64(":" + KEY)`
 - **Key in `.env`:** `LEMLIST_API_KEY` (each person uses their OWN; create at lemlist → Settings → Integrations → API)
-- **Required header:** `User-Agent: Mozilla/5.0 ...` — without a browser-like UA, Cloudflare returns **403**. curl/browsers set it automatically; Python `urllib` does NOT, so set it.
+- **Required header:** `User-Agent: Mozilla/5.0 ...`: without a browser-like UA, Cloudflare returns **403**. curl/browsers set it automatically; Python `urllib` does NOT, so set it.
 - **Rate limit:** ~20 requests / 2 seconds. Sleep ~0.15–0.2s between calls.
 
 ## The multichannel flow (LinkedIn-first + email)
@@ -43,7 +43,7 @@ python3 scripts/push_to_lemlist.py --campaign cam_xxx --steps output/sequence.js
 - Template variables: `{{firstName}}`, `{{lastName}}`, `{{companyName}}`, and `{{accountSignature}}` (your mailbox signature). End emails with `{{accountSignature}}`, don't hardcode a signature.
 
 ## Other useful endpoints
-- `GET /campaigns/{id}` — status (draft/paused/running), senders.
-- `POST /v2/enrichments/bulk` then poll `GET /enrich/{id}` — find missing emails from LinkedIn URLs.
-- `GET /activities?campaignId={id}&createdAtFrom=...&createdAtTo=...` — replies/opens/sends (NOT `/campaigns/{id}/activities`, which returns HTML).
-- `GET /v2/campaigns/{id}/stats?startDate=...&endDate=...` — performance.
+- `GET /campaigns/{id}`: status (draft/paused/running), senders.
+- `POST /v2/enrichments/bulk` then poll `GET /enrich/{id}`: find missing emails from LinkedIn URLs.
+- `GET /activities?campaignId={id}&createdAtFrom=...&createdAtTo=...`: replies/opens/sends (NOT `/campaigns/{id}/activities`, which returns HTML).
+- `GET /v2/campaigns/{id}/stats?startDate=...&endDate=...`: performance.

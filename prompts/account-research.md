@@ -27,22 +27,22 @@ Use your built-in **web search + fetch**. Public sources only, be polite. No pai
 ## Output (write to `output/account-<slug>.md`)
 
 ```markdown
-# <Company> — account briefing
+# <Company>: account briefing
 Fit score: <1-5> · Priority: <high/med/low> · Researched: <date>
 
 ## What they do
 <one or two lines: product, who they sell to, size, geo, stage>
 
 ## Why now (signals)
-- <signal> — <source/date>
-- <signal> — <source/date>
+- <signal>: <source/date>
+- <signal>: <source/date>
 
 ## Where we fit
 <the one use case + the likely pain, in their terms>
 
 ## Who to reach
-- <Name>, <Role> — <linkedin_url> — open with this person because <reason>
-- <Name>, <Role> — <linkedin_url>
+- <Name>, <Role>: <linkedin_url>: open with this person because <reason>
+- <Name>, <Role>: <linkedin_url>
 
 ## Fit + disqualifiers
 <why this score; what would kill the deal>

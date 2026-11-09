@@ -1,4 +1,4 @@
-# Using the Blitz API — "find my TAM / source leads"
+# Using the Blitz API: "find my TAM / source leads"
 
 Official docs: https://docs.blitz-api.ai · Get a key (free credits): https://app.blitz-api.ai · Key details: https://docs.blitz-api.ai/api-reference/account/get-api-key-details
 
@@ -18,7 +18,7 @@ python3 scripts/source_leads.py --dry-run            # 1 page, to test the filte
 
 ## Under the hood
 
-### People search — `POST /v2/search/people` (best for finding decision-makers)
+### People search: `POST /v2/search/people` (best for finding decision-makers)
 Combines company + person filters. Max 50 per page, cursor pagination.
 ```json
 {
@@ -33,13 +33,13 @@ Combines company + person filters. Max 50 per page, cursor pagination.
 Each result has `first_name, last_name, full_name, headline, location, linkedin_url, experiences[]` (the current company is the experience where `job_is_current` is true).
 
 ### Other endpoints
-- `POST /v2/search/companies` — companies only (max 25/page).
-- `POST /v2/enrichment/email` — `{ "person_linkedin_url": "..." }` → verified work email (`found`, `email`).
-- `POST /v2/enrichment/domain-to-linkedin` — `{ "domain": "..." }` → `company_linkedin_url`.
-- `POST /v2/enrichment/company` — `{ "company_linkedin_url": "..." }` → size, industry, headcount, founded year.
+- `POST /v2/search/companies`: companies only (max 25/page).
+- `POST /v2/enrichment/email`: `{ "person_linkedin_url": "..." }` → verified work email (`found`, `email`).
+- `POST /v2/enrichment/domain-to-linkedin`: `{ "domain": "..." }` → `company_linkedin_url`.
+- `POST /v2/enrichment/company`: `{ "company_linkedin_url": "..." }` → size, industry, headcount, founded year.
 
 ## Gotchas
 - **Industry names are LinkedIn's exact taxonomy**, case-sensitive (e.g. `"IT Services and IT Consulting"`). If you get 0 results: check the industry name, widen `employee_range`, or drop `keywords`. Common names are in `prompts/sourcing.md`.
-- **Keywords are language-specific** — German keywords return 0 in FR/IT/ES.
+- **Keywords are language-specific**: German keywords return 0 in FR/IT/ES.
 - `employee_count.min/max: 0` means "no filter", not "0 employees".
 - Email enrichment needs the person's LinkedIn URL, not the company's.

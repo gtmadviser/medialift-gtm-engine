@@ -8,7 +8,7 @@ __pycache__/
 .venv/
 venv/
 
-# Env / secrets — never commit keys
+# Env / secrets: never commit keys
 .env
 *.local
 

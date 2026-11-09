@@ -1,4 +1,4 @@
-# Example output — what "done" looks like
+# Example output: what "done" looks like
 
 A fictional team building **BookFlow**, an online-booking + no-show-reminder
 tool for small service businesses. Use this as a shape reference, not a script.
@@ -10,7 +10,7 @@ tool for small service businesses. Use this as a shape reference, not a script.
 > We target **owner-operators of 3–15 person service businesses** (physio,
 > beauty, dental) in DACH **who still take bookings by phone and lose evenings
 > to no-shows**. The trigger we hunt is a **strong review profile (4.5+ stars,
-> 50+ reviews) but no online booking link** — proof of demand they can't fully
+> 50+ reviews) but no online booking link**: proof of demand they can't fully
 > capture. We detect it via Google Maps + their website. We reach them by email
 > to the practice owner. We skip chains and anything over 20 staff. North-star:
 > **demos booked / 100 sends.**
@@ -26,7 +26,7 @@ Praxis Bergblick,bergblick-physio.at,,Owner,,Innsbruck,"4.6 stars, no online boo
 ## output/campaign.md
 
 ```
-# Campaign: BookFlow — service SMB no-show
+# Campaign: BookFlow: service SMB no-show
 North-star metric: demos booked / 100 sends
 ICP: owner-operators of small DACH service businesses, great reviews, phone-only booking
 
