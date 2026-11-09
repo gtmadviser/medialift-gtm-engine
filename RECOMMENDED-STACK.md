@@ -8,14 +8,13 @@
 
 ## 1. Build your list (ICP → companies & contacts)
 - ★ **AI Ark** → https://ai-ark.com/?ref=gtmadviser: the #1 Apollo replacement; fast way to pull a target company/contact list.
-- Prospeo → https://prospeo.io/?via=emanuel: great alternative starting point, strong company search + email finding.
 - BlitzAPI → https://blitz-api.ai/?aff=emanuel: unlimited emails/phones + full TAM building when you want the whole market.
-- LeadMagic → https://go.leadmagic.io/emanuel-morhard: solid lead data, good fill rates.
 
 ## 2. Enrich & qualify (turn a raw list into a smart, scored one)
 - ★ **Clay** → https://clay.com?via=2da4c3: the GTM workhorse, "Sheets + AI on steroids"; free tier to start.
 - FullEnrich → https://fullenrich.com?via=dNwI4Vgbi7iZ: deeper waterfall enrichment when Clay misses.
 - BetterContact → https://bettercontact.rocks?fpr=emanuel68: best contact fill rates in the EU.
+- Lusha → https://partnerstack.lusha.com/ex8zhsu69jq1: mobile numbers and emails, with a handy Chrome extension.
 
 ## 3. Find triggers & signals (the "why now")
 - ★ **Trigify** → https://trigify.io/?via=emanuel: social signals (who's commenting/following) = warm reasons to reach out.
@@ -35,6 +34,7 @@
 
 ## 6. LinkedIn (and X) outreach
 - ★ **HeyReach** → https://heyreach.io/?via=emanuel: safest LinkedIn automation for sequenced outreach at scale.
+- Needle → https://needle.app/a/rnfy7hg3: agent-native LinkedIn sequencer; 50% off for 3 months with this link.
 - PhantomBuster → https://phantombuster.com?deal=emanuel98: export from Sales Nav + automate LinkedIn/Twitter actions.
 - XReacher → https://xdms.pro/?ref=emanuel: "HeyReach for X/Twitter".
 
@@ -51,5 +51,6 @@
 - ★ **Lovable** → https://lovable.dev/invite/6382f68b-4e83-4d1c-98ae-2ea9578ed525: best vibe-coding tool to ship a landing page or app fast.
 - Gamma → https://try.gamma.app/lfcapblrlpt1: generate a demo deck straight from a prompt.
 
-## Automation layer
+## 10. Orchestrate & automate
+- ★ **Claude Code, Codex, Cursor or another agentic coding tool** (no ref link): runs this whole repo for you, from research to list to copy to campaign. Make it smarter with verified GTM skills from https://gtmskills.cc, a free, community-approved directory of GTM agent skills and repos.
 - **n8n**: the "holy grail" for stitching the above into automated workflows (no ref link). Self-host it cheaply on **Hostinger** → https://hostinger.de?REFERRALCODE=EJLEGMVENM36.
