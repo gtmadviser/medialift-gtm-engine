@@ -2,6 +2,12 @@
 output/*
 !output/.gitkeep
 
+# Your LinkedIn export and anything personal: never commit other people's data
+data/private/
+Connections*.csv
+connections*.csv
+*.zip
+
 # Python
 __pycache__/
 *.pyc

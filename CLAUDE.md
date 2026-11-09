@@ -14,10 +14,26 @@ Be a driver, not a lecturer. Define a concept in one line the first time you use
 Market → ICP → Positioning → Offer → Motion → Messaging → Experiment
 ```
 
+The one exception to this order is the founder's own network (section 1): it needs only a rough ICP and it is where their customers come from today, so it can start in the first session.
+
 Do not jump to lead lists or campaigns before the founder can name: how many accounts can buy, who the buyer is, what the real alternative is, and what the first small yes looks like. If they ask for a campaign first, run a 2-minute check of those four points, then go.
 
-### 0. Get product context (fast)
-In one message: *what is the product, who is it for, what painful problem does it solve, who pays, and what is the realistic next step you want from a prospect?* Don't proceed without this.
+### 0. Start here: the founder brief (`prompts/start-here.md`)
+**If `output/brief.md` does not exist, this is the first thing you do**, whatever the founder asked for. Greet them, say in two lines what this workspace does, and run the short interview in `prompts/start-here.md` (three rounds, about five minutes). It writes `output/brief.md`, `output/icp.md` and `output/icp.json`.
+
+While you interview, tell the founder to **request their LinkedIn connections export now** (steps in `prompts/network.md`), because LinkedIn takes about 10 minutes to deliver it.
+
+`output/brief.md` is the single source of truth about the company. Read it at the start of every task. When the founder says something that changes it, update the brief, `icp.md` and `icp.json` in the same turn and add a line to the brief's change log. Never ask again for what is already in the brief.
+
+### 1. Your network first (`prompts/network.md`)
+These founders win customers through network and intros, so start there. Import the LinkedIn connections export, filter it against the ICP into buyers, partners and connectors, optionally verify the top of the list, and write a plan for the ten warm messages of this week.
+```bash
+python3 scripts/network_import.py                  # data/private/Connections*.csv -> output/network.csv
+python3 scripts/network_filter.py                  # -> output/network_shortlist.csv (free, no key)
+python3 scripts/network_enrich.py --top 40         # optional: verify current jobs (Blitz, HarvestAPI or AI Ark)
+python3 scripts/sheet_export.py                    # -> a Google Sheets ready tracker
+```
+The filter is a keyword screen. You then read the top rows with the founder and apply judgment. Warm messages are always sent by hand.
 
 ---
 
@@ -57,6 +73,12 @@ For small markets, prefer a hand-checked list from the market map over a bulk pu
 
 ### I. Plan the next experiment (`prompts/experiment.md`)
 One hypothesis, audience, channel, volume, metric, owner, end date. Write `output/experiment.md`.
+
+### J. Make it a Google Sheet (`prompts/gsheet.md`)
+Any list (network shortlist, accounts, partners, leads) becomes a tracker with status, owner and next step. Create the sheet directly if you have Google access, otherwise `python3 scripts/sheet_export.py` and a one-minute import.
+
+### K. GTM cofounder (`prompts/cofounder.md`)
+When the founder asks for direction rather than an artifact: stage check, a now/next/later roadmap, preparing and debriefing customer conversations, an honest review of their work, and playbooks per archetype (small B2B media market, larger B2B, B2B2C, B2C premium).
 
 ---
 
@@ -101,6 +123,7 @@ Paid pilots or pre-orders > meetings per 100 conversations > opportunities per 1
 - Keep first lists small (25 to 50). Scale once the message works.
 - Polite research: public and official sources, reasonable rates, business contact basics only.
 - Never print or commit API keys. `.env` is gitignored.
+- The LinkedIn connections export is other people's personal data. It stays in `data/private/` and `output/` (both gitignored). Never commit it, never paste the full list into a public tool, never message the network automatically.
 - Do not invent facts about the product, customers or numbers. Ask.
 
 ## When NOT to push outbound

@@ -6,7 +6,8 @@ A talk track for showing, live, how an agent supports a founder from strategy to
 
 ## Flow
 
-1. **Context (2 min).** Paste the team's product, buyer and stall into the agent: `read CLAUDE.md. Our product is ___ ...`
+0. **Before the block: the network (optional, 3 min).** If the volunteer brought a `Connections.csv`: `python3 scripts/network_import.py`, then let the agent write the `network` block and run `python3 scripts/network_filter.py`. Show the split into buyers, partners and connectors. Do not put real names on a shared screen without the founder's OK.
+1. **Context (2 min).** Paste the team's product, buyer and stall into the agent: `read CLAUDE.md and start. Our product is ___ ...` It stores the answers in `output/brief.md`.
 2. **Market map (5 min).** `prompts/market-map.md`: count the buying unit, pick the motion from the number, list the first Tier 1 accounts. Point out how a small market changes everything downstream.
 3. **One account, deep (5 min).** `prompts/account-research.md` on one Tier 1 account: trigger, buyer vs user, fit score.
 4. **Positioning + first yes (5 min).** `prompts/positioning.md` and `prompts/offer-pricing.md`: one sentence, one small paid next step.

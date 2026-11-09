@@ -1,12 +1,77 @@
 {
   "label": "Example: small B2B software companies in Germany",
   "country_code": "DE",
-  "industries": ["Software Development"],
+  "industries": [
+    "Software Development"
+  ],
   "keywords": [],
-  "employee_range": ["1-10", "11-50"],
-  "exclude_type": ["Nonprofit"],
-  "job_title_include": ["CEO", "Founder", "Co-Founder", "Managing Director", "Geschäftsführer", "Inhaber"],
-  "job_title_exclude": ["Assistant", "Intern", "Working Student"],
-  "job_level": ["C-Team", "Director"],
-  "max_results": 25
+  "employee_range": [
+    "1-10",
+    "11-50"
+  ],
+  "exclude_type": [
+    "Nonprofit"
+  ],
+  "job_title_include": [
+    "CEO",
+    "Founder",
+    "Co-Founder",
+    "Managing Director",
+    "Geschäftsführer",
+    "Inhaber"
+  ],
+  "job_title_exclude": [
+    "Assistant",
+    "Intern",
+    "Working Student"
+  ],
+  "job_level": [
+    "C-Team",
+    "Director"
+  ],
+  "max_results": 25,
+  "network": {
+    "_comment": "Used by scripts/network_filter.py on your LinkedIn connections. Lowercase keywords, short and general. See prompts/network.md.",
+    "buyer_company_keywords": [
+      "software",
+      "saas"
+    ],
+    "buyer_titles": [
+      "ceo",
+      "founder",
+      "geschäftsführ",
+      "managing director",
+      "head of sales"
+    ],
+    "partner_company_keywords": [
+      "verband",
+      "association",
+      "agentur",
+      "agency"
+    ],
+    "partner_titles": [
+      "partnership",
+      "kooperation",
+      "business development",
+      "alliances"
+    ],
+    "connector_keywords": [
+      "investor",
+      "business angel",
+      "advisor",
+      "beirat",
+      "consultant",
+      "berater"
+    ],
+    "exclude_keywords": [
+      "student",
+      "intern",
+      "praktikant",
+      "recruiter"
+    ],
+    "exclude_companies": [
+      "Your Own Company",
+      "A Competitor"
+    ]
+  }
 }

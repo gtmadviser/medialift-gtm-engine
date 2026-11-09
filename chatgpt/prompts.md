@@ -20,6 +20,24 @@ Where we are: [customers, pilots, pre-orders, conversations]
 Where we are stuck: [e.g. conversations but no deals]
 ```
 
+## Prompt 0b: your network (upload your LinkedIn export)
+
+Export first: LinkedIn → Me → Settings & Privacy → Data privacy → Get a copy of your data → tick "Connections" → Request archive. Upload the `Connections.csv` to the chat with this prompt. It contains other people's data, so use your own account, not a shared one, and delete the chat afterwards if you prefer.
+
+```
+Attached is my LinkedIn connections export (the real header row starts after the notes at the top).
+Using the company context above, go through all rows and build three lists:
+1) BUYERS: people at organisations that could buy from us, or in the role that signs.
+2) PARTNERS: people at organisations that already own the relationship with our end customer.
+3) CONNECTORS: investors, advisors, consultants, journalists, association people who know our buyers.
+Skip students, recruiters, our own company and competitors.
+For each list give me a table: name, position, company, LinkedIn URL, why they fit (one line).
+Then pick the 10 I should write to this week and draft a warm message for each:
+40 to 60 words, first line references how we know each other (ask me if unclear),
+one easy ask (advice, a named intro, or a small partner pilot). No pitch tone, no em dashes.
+Tell me which positions might be outdated so I check the profile before writing.
+```
+
 ## Prompt 1: market map
 
 ```
